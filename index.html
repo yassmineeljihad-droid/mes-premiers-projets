@@ -1,26 +1,134 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-    <title>Mon premier projet</title>
+
+    <title>StageFinder - Trouve ton stage</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Bonjour, je suis Yassmine !</h1>
+    <header class="navbar">
+        <a href="#" class="logo">Stage<span>Finder</span></a>
 
-    <p>Je suis etudiante en developpement informatique.</p>
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#offres">Offres de stage</a>
+            <a href="#apropos">À propos</a>
+        </nav>
 
-    <h2>Mes competences</h2>
+        <a href="#offres" class="nav-button">Explorer</a>
+    </header>
 
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>SQL</li>
-    </ul>
+    <main>
+        <section class="hero" id="accueil">
+
+            <div class="hero-content">
+                <p class="badge">
+                    ✦ TON FUTUR COMMENCE ICI
+                </p>
+
+                <h1>
+                    Trouve ton stage.<br>
+                    <span>Construis ton avenir.</span>
+                </h1>
+
+                <p class="description">
+                    Découvre des opportunités de stage,
+                    développe tes compétences et fais
+                    le premier pas vers ta carrière.
+                </p>
+
+                <a href="#offres" class="main-button">
+                    Découvrir les offres →
+                </a>
+
+                <p class="small-text">
+                    Start your journey with StageFinder.
+                </p>
+            </div>
+
+            <div class="hero-card">
+                <div class="card-icon">✦</div>
+                <p class="card-label">YOUR NEXT OPPORTUNITY</p>
+                <h2>Future Developer</h2>
+                <p class="company">Tech Company · Tanger</p>
+
+                <div class="tag-list">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="card-footer">
+                    <span>Stage pré-embauche</span>
+                    <span class="status">Exemple</span>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="offers" id="offres">
+            <p class="section-label">OPPORTUNITÉS</p>
+
+            <h2>Explore les offres de stage</h2>
+
+            <p class="section-description">
+                Trouve une opportunité qui correspond à tes ambitions.
+            </p>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Métier, compétence ou entreprise..."
+                    aria-label="Rechercher une offre"
+                >
+
+                <button type="button">Rechercher</button>
+            </div>
+
+            <div class="offer-card">
+                <div>
+                    <h3>Développeur Web Junior</h3>
+                    <p>Digital Studio · Tanger</p>
+                </div>
+
+                <span class="offer-type">Stage</span>
+            </div>
+
+            <div class="offer-card">
+                <div>
+                    <h3>Stagiaire Python</h3>
+                    <p>Future Tech · Tétouan</p>
+                </div>
+
+                <span class="offer-type">Stage</span>
+            </div>
+
+            <p class="notice">
+                Les offres présentées sont fictives et servent
+                uniquement à la démonstration du projet.
+            </p>
+        </section>
+
+        <section class="about" id="apropos">
+            <h2>Ton avenir commence par un premier pas.</h2>
+
+            <p>
+                StageFinder est un projet étudiant qui facilite
+                la découverte des opportunités de stage.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#" class="logo">Stage<span>Finder</span></a>
+        <p>© 2026 StageFinder · Projet étudiant</p>
+    </footer>
 
 </body>
 </html>
